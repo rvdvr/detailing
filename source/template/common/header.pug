@@ -1,0 +1,23 @@
+header.header
+  .container
+    a(href='index.html').logo__link
+      img(src='assets/img/logo.png' alt="Студия автодетейлинга Fast and Shine в Арзамасе").logo__img
+    section.contacts
+      ul.contacts__list
+        li.contacts__item
+          +icon('phone')
+          span.contacts__phone
+        li.contacts__item
+          +icon('map')
+          span.contacts__address
+        li.contacts__item
+          +icon('clock')
+          span.contacts__time
+        li.contacts__item
+          ul.socials__list
+            li.socials__item_vk
+              +icon('vk')
+            li.socials__item_inst
+              +icon('inst')
+            li.socials__item_mail
+              +icon('mail')
